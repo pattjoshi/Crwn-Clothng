@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+## Cart:-
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+We now need to create our cart feature in our application. To start, we'll create our cartIcon and cartDropdown components. Then we'll create the necessary reducer, actions, and types associated to handling hiding and showing the carDropdown component.
 
-## Available Scripts
+## Redux:-
 
-In the project directory, you can run:
+We have added redux to our application so we can leverage all the benefits that come with uni-directional data flow. Instead of the prop drilling we would have to do in order to pass our new user object down deeper into our component trees from our app, we can now just connect those components directly to our redux store where we store all our data.
 
-### `npm start`
+- i want to separate all our business logic in our selectors. In this lesson we add a new selector to show our total count of items.
+- I want to be able to remove the item from the cart if the user doesn't want it anymore during checkout so we're going to add the appropriate action and case in our cart reducer.
+- We don't want our users to lose their carts whenever they refresh, so we are going to leverage one of the benefits of redux by persisting our store object in localstorage using redux-persist.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+I have now created the collection page and converted our shop items data over from an array to an object to better leverage our url parameters! Converting arrays over to objects to store data is called data-normalization and it makes searching for specific elements in our code much easier and efficient!
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+I don't want our users to lose their carts whenever they refresh, so we are going to leverage one of the benefits of redux by persisting our store object in localstorage using redux-persist.
 
-### `npm test`
+In this section, I am going to introduce our stripe integration and create a stripe button to help us leverage the stripe checkout library. Stripe is an excellent service that allows us to massively simplify our checkout flow, which would otherwise be incredibly complicated.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### yarn add (You can specify versions using one of these)
 
-### `npm run build`
+```
+yarn add package-name
+yarn add package-name@1.2.3
+yarn add package-name@tag
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
