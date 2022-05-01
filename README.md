@@ -10,11 +10,13 @@ We have added redux to our application so we can leverage all the benefits that 
 - I want to be able to remove the item from the cart if the user doesn't want it anymore during checkout so we're going to add the appropriate action and case in our cart reducer.
 - We don't want our users to lose their carts whenever they refresh, so we are going to leverage one of the benefits of redux by persisting our store object in localstorage using redux-persist.
 
-I have now created the collection page and converted our shop items data over from an array to an object to better leverage our url parameters! Converting arrays over to objects to store data is called data-normalization and it makes searching for specific elements in our code much easier and efficient!
+➡️ I have now created the collection page and converted our shop items data over from an array to an object to better leverage our url parameters! Converting arrays       over to objects to store data is called data-normalization and it makes searching for specific elements in our code much easier and efficient!
 
-I don't want our users to lose their carts whenever they refresh, so we are going to leverage one of the benefits of redux by persisting our store object in localstorage using redux-persist.
+➡️ I don't want our users to lose their carts whenever they refresh, so we are going to leverage one of the benefits of redux by persisting our store object in           localstorage using redux-persist.
 
-In this section, I am going to introduce our stripe integration and create a stripe button to help us leverage the stripe checkout library. Stripe is an excellent service that allows us to massively simplify our checkout flow, which would otherwise be incredibly complicated.
+➡️ In this section, I am going to introduce our stripe integration and create a stripe button to help us leverage the stripe checkout library. Stripe is an excellent service that allows us to massively simplify our checkout flow, which would otherwise be incredibly complicated.
+
+➡️ We are now adding styled-components to explore CSS-in-JS. We convert over our Homepage component, Header component and CustomButton component to use styled-components instead of scss.
 
 ### yarn add (You can specify versions using one of these)
 
