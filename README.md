@@ -20,6 +20,8 @@ We have added redux to our application so we can leverage all the benefits that 
 
 ➡️ I've moved our shop data into our firestore database, now we need to modify our application in such a way that considers our data being loaded asynchronously. We have created a WithSpinner HOC as well as modified our shop to initialize the call for data.
 
+➡️ I have added some media query styles to our styled components, try as an exercise to convert the appropriate pages to be mobile responsive!
+
 ### yarn add (You can specify versions using one of these)
 
 ```
