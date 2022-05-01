@@ -1,4 +1,3 @@
-import "./App.css";
 import React from "react";
 import { createStructuredSelector } from "reselect";
 import { Switch, Route, Redirect } from "react-router-dom";
@@ -11,6 +10,7 @@ import SignInAndSignUpPage from "./pages/sign-in-and-sign-up/SignInAndSignUpPage
 import { auth, createUserProfileDocument } from "./firebase/FirebaseUtils";
 import { setCurrentUser } from "./redux/user/UserActions";
 import { selectCurrentUser } from "./redux/user/UserSelectors";
+import { GlobalStyle } from "./global.styles";
 
 class App extends React.Component {
   unsubscribeFromAuth = null;
@@ -41,6 +41,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
+        <GlobalStyle />
         <HeaderComponent />
         <Switch>
           <Route exact path="/" component={HomePage} />

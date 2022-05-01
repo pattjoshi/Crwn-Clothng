@@ -39,6 +39,21 @@ export const createUserProfileDocument = async (userAuth, additionalData) => {
   return userRef;
 };
 
+export const addCollectionAndDocuments = async (
+  collectionKey,
+  objectsToAdd
+) => {
+  const collectionRef = firestore.collection(collectionKey);
+
+  const batch = firestore.batch();
+  objectsToAdd.forEach((obj) => {
+    const newDocRef = collectionRef.doc();
+    // get document at empty string  .... and rendumly generate id for me
+    batch.set(newDocRef, obj);
+  });
+  return await batch.commit();
+};
+
 export const auth = firebase.auth();
 export const firestore = firebase.firestore();
 
@@ -103,3 +118,10 @@ export default firebase;
 // export const signInWithGoogle = () => auth.signInWithPopup(provider)
 
 // export default firebase;
+
+// ...............   <>Only Read</>  .............
+// The forEach() method calls a function for each element in an array.
+
+// The forEach() method is not executed for empty elements.
+
+// syntex :- array.forEach(function(currentValue, index, arr), thisValue)
