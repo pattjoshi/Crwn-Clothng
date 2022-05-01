@@ -18,6 +18,8 @@ We have added redux to our application so we can leverage all the benefits that 
 
 ➡️ We are now adding styled-components to explore CSS-in-JS. We convert over our Homepage component, Header component and CustomButton component to use styled-components instead of scss.
 
+➡️ I've moved our shop data into our firestore database, now we need to modify our application in such a way that considers our data being loaded asynchronously. We have created a WithSpinner HOC as well as modified our shop to initialize the call for data.
+
 ### yarn add (You can specify versions using one of these)
 
 ```
