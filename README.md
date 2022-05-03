@@ -22,6 +22,10 @@ We have added redux to our application so we can leverage all the benefits that 
 
 ➡️ I have added some media query styles to our styled components, try as an exercise to convert the appropriate pages to be mobile responsive!
 
+
+upcomming :-
+hosting 404 contact , loding , 
+
 ### yarn add (You can specify versions using one of these)
 
 ```
