@@ -22,6 +22,8 @@ We have added redux to our application so we can leverage all the benefits that 
 
 ➡️ I have added some media query styles to our styled components, try as an exercise to convert the appropriate pages to be mobile responsive!
 
+➡️ I moved  shop data into our firestore database, now we need to modify our application in such a way that considers our data being loaded asynchronously.and I  created a WithSpinner HOC as well as modified our shop to initialize the call for data.
+
 upcomming :-
 hosting 404 contact , loding , 
 
