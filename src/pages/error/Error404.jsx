@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom/cjs/react-router-dom.min";
+import { NavLink } from "react-router-dom";
 
 import styled from "styled-components";
 import errimg from "../../Image/404.png";
@@ -23,13 +23,27 @@ const Image404 = styled.img`
   }
 `;
 
+const NavLin = styled(NavLink)`
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  margin-bottom: 1rem;
+  line-height: 1.15;
+  color: green;
+  @media screen and (max-width: 800px) {
+    font-size: 1.5rem;
+    padding: 10px;
+  }
+`;
+
 const Error404 = () => {
   return (
     <>
-      <div>
-        <Image404 src={errimg} alt="404 error img" />
-      </div>
-      <NavLink to="/">GO BACK</NavLink>
+      <Image404 src={errimg} alt="404 error img" />
+
+      <NavLin to="/">GO BACK !!</NavLin>
     </>
   );
 };
