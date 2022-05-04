@@ -11,6 +11,7 @@ import { auth, createUserProfileDocument } from "./firebase/FirebaseUtils";
 import { setCurrentUser } from "./redux/user/UserActions";
 import { selectCurrentUser } from "./redux/user/UserSelectors";
 import { GlobalStyle } from "./global.styles";
+import Error404 from "./pages/error/Error404";
 
 class App extends React.Component {
   unsubscribeFromAuth = null;
@@ -47,6 +48,7 @@ class App extends React.Component {
           <Route exact path="/" component={HomePage} />
           <Route path="/shop" component={ShopPage} />
           <Route exact path="/checkout" component={CheckoutPage} />
+          <Route component={Error404} />
           CheckOut
           <Route
             exact
