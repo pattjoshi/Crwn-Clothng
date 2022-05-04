@@ -33,7 +33,11 @@ hosting   , avtar ,
 ```
 npm install -g firebase-tools
 yarn build
+firebase login
+firebase init
+firebase deploy
 ```
+<img width="656" alt="image" src="https://user-images.githubusercontent.com/78966839/166789239-38bbfee0-5043-417b-9350-877ea6ba70f3.png">
 
 ### yarn add (You can specify versions using one of these)
 
