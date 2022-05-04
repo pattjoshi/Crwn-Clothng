@@ -32,7 +32,7 @@ hosting   , avtar ,
 ### How to Host React website on Forebase Alo stape 
 ```
 npm install -g firebase-tools
-
+yarn build
 ```
 
 ### yarn add (You can specify versions using one of these)
