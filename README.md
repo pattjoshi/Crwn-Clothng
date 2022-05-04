@@ -22,6 +22,7 @@ We have added redux to our application so we can leverage all the benefits that 
 
 ➡️ I have added some media query styles to our styled components, try as an exercise to convert the appropriate pages to be mobile responsive!
 
+➡️ I m' using redux-thunk for asynchronous event handling! We have modified our collections-page collections-overview components to use the container pattern to separate their loading logic out of our shop component, and into their own isolated files.
 
 upcomming :-
 hosting 404 contact , loding , 
