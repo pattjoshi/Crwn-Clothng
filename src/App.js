@@ -60,8 +60,8 @@ class App extends React.Component {
               )
             }
           />
+          <Route component={Error404} />
         </Switch>
-        <Route component={Error404} />
       </div>
     );
   }
