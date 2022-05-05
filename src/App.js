@@ -48,7 +48,6 @@ class App extends React.Component {
           <Route exact path="/" component={HomePage} />
           <Route path="/shop" component={ShopPage} />
           <Route exact path="/checkout" component={CheckoutPage} />
-          <Route component={Error404} />
           CheckOut
           <Route
             exact
@@ -62,6 +61,7 @@ class App extends React.Component {
             }
           />
         </Switch>
+        <Route component={Error404} />
       </div>
     );
   }
