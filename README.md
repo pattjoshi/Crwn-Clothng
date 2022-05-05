@@ -26,8 +26,9 @@ We have added redux to our application so we can leverage all the benefits that 
 
 ➡️ If the user entry garbage thing in URL the Return 404 Error page.
 
-upcomming :-
-hosting   , avtar , 
+➡️ You can sign in with your Google Account and and e_mail password. 
+
+➡️ if the user is already login then sign in page is not show.
 
 ### How to Host React website on Forebase Alo stape 
 ```
