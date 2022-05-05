@@ -24,8 +24,20 @@ We have added redux to our application so we can leverage all the benefits that 
 
 ➡️ I m' using redux-thunk for asynchronous event handling! We have modified our collections-page collections-overview components to use the container pattern to separate their loading logic out of our shop component, and into their own isolated files.
 
+➡️ If the user entry garbage thing in URL the Return 404 Error page.
+
 upcomming :-
-hosting 404 contact , loding , 
+hosting   , avtar , 
+
+### How to Host React website on Forebase Alo stape 
+```
+npm install -g firebase-tools
+yarn build
+firebase login
+firebase init
+firebase deploy
+```
+<img width="656" alt="image" src="https://user-images.githubusercontent.com/78966839/166789239-38bbfee0-5043-417b-9350-877ea6ba70f3.png">
 
 ### yarn add (You can specify versions using one of these)
 
