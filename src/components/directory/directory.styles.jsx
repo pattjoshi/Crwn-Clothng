@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
-export const SignInAndSignUpContainer = styled.div`
-  width: 850px;
+export const DirectoryMenuContainer = styled.div`
+  width: 100%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  margin: 30px auto;
 `;
