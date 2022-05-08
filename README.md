@@ -1,6 +1,6 @@
 # Crwn-Clothing
 
-## A E-Commerce website which built with React JS, styled-component , and redux. Back-end use firebase. Stripe API use for payment. You can sign in with your Google Account or email or password . Click demo to try it by yourself! .
+## An E-Commerce website built with React JS, styled-component, and redux. Back-end use firebase. Stripe API is used for payment. You can sign in with your Google Account or email or password. . Click demo to try it by yourself! .
 
 # Images:-
 ## Home page :-
