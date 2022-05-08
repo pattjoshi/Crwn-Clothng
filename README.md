@@ -1,3 +1,20 @@
+# Crwn-Clothing
+
+## A E-Commerce website which built with React JS, styled-component , and redux. Back-end use firebase. Stripe API use for payment. You can sign in with your Google Account or email or password . Click demo to try it by yourself! .
+
+# Images:-
+## Home page :-
+<img width="933" alt="image" src="https://user-images.githubusercontent.com/78966839/167308488-d7360e6d-7a6c-4a8d-b330-b172c8801c0f.png">
+
+## Shop page :-
+<img width="944" alt="image" src="https://user-images.githubusercontent.com/78966839/167308501-249d327f-82d6-400b-9f98-affab486f10c.png">
+
+## In side database :-
+<img width="940" alt="image" src="https://user-images.githubusercontent.com/78966839/167308506-95d92ceb-69d6-4506-a7eb-39e42eed3b50.png">
+
+## Video:-
+
+
 ## Cart:-
 
 We now need to create our cart feature in our application. To start, we'll create our cartIcon and cartDropdown components. Then we'll create the necessary reducer, actions, and types associated to handling hiding and showing the carDropdown component.
