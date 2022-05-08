@@ -12,7 +12,14 @@
 ## In side database :-
 <img width="940" alt="image" src="https://user-images.githubusercontent.com/78966839/167308506-95d92ceb-69d6-4506-a7eb-39e42eed3b50.png">
 
+## 404 Error page:- 
+<img width="957" alt="image" src="https://user-images.githubusercontent.com/78966839/167311291-47ca6aa9-252a-40c8-af2c-b1d58c54b91e.png">
+
 ## Video:-
+
+
+
+https://user-images.githubusercontent.com/78966839/167311319-d51b3940-45aa-4a34-8e06-2f1ce62c7c7d.mov
 
 
 ## Cart:-
