@@ -1,6 +1,33 @@
-# Crwn-Clothing
+## CRWN Clothing 🎯
 
 ## An E-Commerce website built with React JS, styled-component, and redux. Back-end use firebase. Stripe API is used for payment. You can sign in with your Google Account or email or password. . Click demo to try it by yourself! .
+
+- Clothing shop made using React & firebase with Stripe payments implemented.
+
+## Features 🔥
+✔️ Authentication with Google account <br />
+✔️ Authentication with email & password <br />
+✔️ Persistant data with local storage <br />
+✔️ Asynchronous events handling <br />
+✔️ Paypal payments with Stripe <br />
+✔️ Performance improvement with lazy loading <br />
+
+## Technologies used 🛠️
+**Deployment**: *firebase*<br />
+**Design**: *Sass & Styled Components*<br />
+**Authentication**: *Firebase auth*<br />
+**Database**: *Firebase Firestore*<br />
+**Backend**: *Firebase * <br />
+**Libraries**: <br />
+    - **redux-logger**: console logging redux data flow <br />
+    - **redux**: state management <br />
+    - **redux-thunk**: handling asynchronous events <br />
+    - <del><strong>redux-saga</strong></del>: handling asynchronous events keeping actions pure <br />
+    - **axios**: implement api requests with ease <br />
+    - **reselect**: reusing redux selectors in a performant way <br />
+    - **redux-persist**: storing data in local storage <br />
+    - **compression**: for gzipping our files on heroku <br />
+    - **concurrently**: for running multiple scripts concurrently <br />
 
 # Images:-
 ## Home page :-
@@ -20,6 +47,9 @@
 
 
 https://user-images.githubusercontent.com/78966839/167311319-d51b3940-45aa-4a34-8e06-2f1ce62c7c7d.mov
+
+
+
 
 
 ## Cart:-
